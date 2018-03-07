@@ -1,0 +1,10 @@
+{
+  "name": "bethelnj",
+  "version": "1.0.0",
+  "description": "Beth El Website",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "webpack": "^4.1.0"
+  }
+}
