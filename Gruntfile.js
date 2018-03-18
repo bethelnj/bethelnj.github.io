@@ -11,8 +11,14 @@ module.exports = function (grunt) {
                 src: 'global.scss',
                 dest: 'dist/global.css'
             }
+        },
+        watch: {
+            sass: {
+                files: ['**/*.scss'],
+                tasks: ['sass']
+            }
         }
     });
 
-    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('default', ['watch']);
 };

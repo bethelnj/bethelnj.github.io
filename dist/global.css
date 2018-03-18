@@ -8,48 +8,31 @@ header {
   font-family: sans-serif;
 }
 
-header .first-line {
-  height: 35px;
-  background-color: #A39161;
-  color: white;
-  position: relative;
-  padding-left: 25px;
+header > img {
+  float: left;
 }
 
-header .first-line h2 {
-  font-size: 30px;
-  line-height: 22px;
-  float: left;
-  margin: 0;
-  font-weight: normal;
-  padding-top: 13px;
+header .first-line {
+  height: 46px;
+  background-color: #A39161;
 }
 
 header .first-line a {
   float: right;
-  font-size: 35px;
-  line-height: 35px;
-  color: white;
   margin-right: 100px;
-  text-decoration: none;
+  margin-top: 3px;
 }
 
 header .second-line {
-  height: 60px;
+  height: 86px;
   background-color: #58595B;
   color: white;
-  padding-left: 25px;
-}
-
-header .second-line h1 {
-  margin: 0;
-  display: inline-block;
-  font-size: 55px;
 }
 
 header .second-line ul {
   margin: 0;
   display: inline-block;
+  padding-top: 55px;
 }
 
 header .second-line ul li {
@@ -59,28 +42,13 @@ header .second-line ul li {
 }
 
 header .third-line {
-  height: 30px;
+  height: 33px;
   background-color: #A84D10;
-  color: white;
-  padding-left: 25px;
-}
-
-header .third-line h4 {
-  margin: 0;
-  padding-top: 8px;
-  font-size: 12px;
 }
 
 header .fourth-line {
-  height: 40px;
+  height: 36px;
   background-color: #FFD65C;
-  color: black;
-  padding-left: 25px;
-}
-
-header .fourth-line h3 {
-  margin: 0;
-  font-size: 21px;
 }
 
 footer {
