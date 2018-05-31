@@ -1,0 +1,31 @@
+footer {
+    background-color: #58595B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .quick-links ul {
+        list-style: none;
+    }
+
+    .social-tools {
+        order: 1;
+        text-align: center;
+    }
+
+    .quick-links, .social-tools {
+        padding: 10px;
+        flex: 0 0 20%;
+        justify-content: space-between;
+    }
+
+    .about-us {
+        position: relative;
+        text-align: center;
+    }
+
+    .legal {
+        position: absolute;
+        bottom: 10px;
+    }
+}

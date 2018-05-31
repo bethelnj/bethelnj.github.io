@@ -29,18 +29,6 @@ header .second-line {
   color: white;
 }
 
-header .second-line ul {
-  margin: 0;
-  display: inline-block;
-  padding-top: 55px;
-}
-
-header .second-line ul li {
-  display: inline-block;
-  text-transform: uppercase;
-  margin-right: 24px;
-}
-
 header .third-line {
   height: 33px;
   background-color: #A84D10;
@@ -54,4 +42,31 @@ header .fourth-line {
 footer {
   background-color: #58595B;
   color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .quick-links ul {
+  list-style: none;
+}
+
+footer .social-tools {
+  order: 1;
+  text-align: center;
+}
+
+footer .quick-links, footer .social-tools {
+  padding: 10px;
+  flex: 0 0 20%;
+  justify-content: space-between;
+}
+
+footer .about-us {
+  position: relative;
+  text-align: center;
+}
+
+footer .legal {
+  position: absolute;
+  bottom: 10px;
 }
